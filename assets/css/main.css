@@ -1,0 +1,293 @@
+*{
+
+  box-sizing: border-box;
+  
+  }
+  
+  .wrapper{
+  
+  width: 300px;
+  
+  }
+  .first-containers{
+  
+  height: 265px;
+  
+  width: 300px;
+  
+  background-color: #000;
+  
+  /* padding: 6px 3px; */
+  
+  border-radius: 8px;
+  
+  }
+  #logo{
+  
+  margin: 16px 0px;
+  
+  position: relative;
+  
+  left: 33%;
+  
+  }
+  .container{
+  
+  width: auto;
+  
+  border-radius: 4%;
+  
+  }
+  
+  .row{
+  
+  display: flex;
+  
+  }
+  
+  .card{
+  
+  background-color: #E0E0E0;
+  
+  height: 57px;
+  
+  width: 42px;
+  
+  align-self: auto;
+  
+  margin-left: 6px;
+  
+  padding: 4px 0px;
+  
+  border-radius: 6%;
+  }
+  
+   
+  .card2, .card3, .card4, .card5, .card6 {
+      
+      animation-name: turn;
+  
+      animation-duration: 1s;
+      
+      animation-timing-function: linear;
+      
+      animation-iteration-count:1; 
+  }
+  .card1 {
+  
+      animation-name: turn;
+  
+      animation-duration: 1s;
+      
+      animation-timing-function: linear;
+      
+      animation-iteration-count:1; 
+  }
+  
+  .title{
+  
+  text-align: center;
+  
+  color: #ff5200;
+  
+  font-size: 36px;
+  
+  font-weight: bold;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  
+  margin-bottom: 6px;
+  
+  }
+  
+  .news{
+  
+  color: white;
+  
+  float: left;
+  
+  margin-top: 6px;
+  
+  margin-left: 6px;
+  
+  font-size: 14px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  
+  font-weight: bold; 
+  
+  }
+  
+  #news2{
+  
+  color: #ff5200;
+  
+  margin-top: 6px;
+  
+  margin-left: 6px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .sub-title{
+  
+  color: #fff;
+  
+  margin-top: 48px;
+  
+  font-weight: bold;
+  
+  font-family: Arial, Helvetica, sans-serif; 
+  
+  font-size: 12px; 
+  
+  margin-left: 6px;
+  
+  
+  }
+  
+  .news3{
+  
+  color: #ff5200;
+  
+  /* float: right; */
+  
+  margin-top: 2px;
+  
+  font-size: 12px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  
+  margin-left: 6px;
+  
+  }
+  
+  
+  #no{
+  
+  font-size: 48px;
+  
+  text-align: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  
+  color: #000;
+  
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.50);
+  
+  }
+  
+  p {
+  
+  text-align: center;
+  
+  font-size: 60px;
+  
+  margin-top:0px;
+  
+  }
+  
+  
+  .button{
+  
+  background-color: #ff5200;
+  
+  border: none;
+  
+  color: white;
+  
+  padding: 10px 12px;
+  
+  text-align: center;
+  
+  text-decoration: none;
+  
+  display: inline-block;
+  
+  font-size: 16px;
+  
+  margin: 16px 0px;
+  
+  cursor: pointer;
+  
+  position: relative;
+  
+  left: 21%;
+  
+  border-radius: 8px;
+  
+  font-weight: bold;
+  
+  animation-name: flashing;
+  
+  animation-duration: 1.5s;
+  
+  animation-timing-function: linear;
+  
+  animation-iteration-count: infinite;
+  
+  }
+  
+  
+  @keyframes flashing{
+  
+    0%{
+        opacity: 1.0;
+      }
+      15%{
+        opacity: 0.8;
+      }
+      30%{
+        opacity: 0.6;
+      }
+      45%{
+        opacity: 0.2;
+      }
+      60%{
+        opacity: 0.2;
+      }
+      75%{
+        opacity: 0.6;
+      }
+      90%{
+        opacity: 0.8;
+      }
+      100%{
+        opacity: 1.0;
+      }
+      
+      
+      }
+  
+      @keyframes turn{
+      
+      0%{
+      
+      transform: rotateX(0deg);
+      
+      }
+      25%{
+      
+      transform: rotateX(90deg);
+      
+      }
+      
+      50%{
+      
+      transform: rotateX(90deg);
+      
+      }
+      75%{
+      
+      transform: rotateX(45deg);
+      
+      }
+      
+      100%{
+      
+      transform: rotateX(0deg);
+      
+      }
+      
+      }

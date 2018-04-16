@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+​
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- css -->
+
+  <link rel="stylesheet" href="assets/css/flip 2.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Live Count</title>
+
+</head>
+
+​
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="title">
+
+      Live Count
+
+    </div>
+
+    <div class="first-containers">
+
+      <!-- Header -->
+
+      <img src="assets/img/logo/logo3.svg" id="logo">
+
+      <div class="your-clock"></div>
+
+      <script src="assets/js/jquery.js"></script>
+      <script src="assets/plugins/flipclock.min.js"></script>
+      <script>
+        var clock = new FlipClock($('.your-clock'), 000000, {
+          // ... your options here
+          clockFace: 'Counter',
+          autoStart: true,
+          countdown: false,
+          minimumDigits: 6
+        });
+      </script>
+
+      <div class="news">
+
+        LIVES LOST DUE TO INTERNAL INSERCURITY SINCE 2015
+
+      </div>
+
+      <div class="sub-title">
+
+        TODAY'S COUNT : 10 LIVES LOST IN KANO
+
+      </div>
+
+      <div class="news3">
+
+        NEWS : 10 Dead in Herdsmen Killings
+
+      </div>
+
+      <input type="button" value="Provide a solution" class="button">
+
+    </div>
+
+  </div>
+
+  ​
+
+  <script src="assets/js/main.js"></script> ​
+
+</body>
+
+​
+
+</html>
